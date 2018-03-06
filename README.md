@@ -43,7 +43,7 @@ intersections:
     color: Plum
 ```
 
-![Alt text](docs/plot.png?raw=true "Simple example")
+![Alt text](econ_graphing/docs/plot.png?raw=true "Simple example")
 
 Other sections are `Shading` and `Annotations`. 
 
