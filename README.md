@@ -18,17 +18,21 @@ The graphs are made using [plot.ly](https://plot.ly "Plot.ly: Modern Visualizati
 A graph is defined using YAML, as shown in the example below:
 
 ```yaml
+title: Example Graph
+configuration:
+    x_title: Quantity of widgets
+    y_title: Price of widgets in $
 lines:
   demand:
     color: CadetBlue
-    el: -2.5
+    el: -1.5
     label: D
-    left_point: [20, 90]
+    left_point: [15, 60]
   supply:
     color: SeaGreen
-    el: 2.5
+    el: 1.5
     label: S
-    left_point: [10, 30]
+    left_point: [15, 5]
 
 intersections:
   supply-and-demand:
@@ -37,8 +41,9 @@ intersections:
     x-axis-label: Qeq
     y-axis-label: Peq
     color: Plum
-
 ```
+
+![Alt text](docs/plot.png?raw=true "Simple example")
 
 Other sections are `Shading` and `Annotations`. 
 
